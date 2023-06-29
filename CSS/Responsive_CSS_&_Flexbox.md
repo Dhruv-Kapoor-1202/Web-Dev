@@ -115,3 +115,72 @@ If items are larger than the container, they shrink according to flex-shrink.
   - inherit
   - initial
   - unset
+
+# Responsive Design And Media Queries Intro
+
+## The Problem
+As mobile devices and tablets became widely available, developers had a problem... how do we create websites that look good on all screen sizes?
+
+## One Approch
+Early on it was common to create separate stylesheets for different devices, or even completely different websites for each size.
+
+## Enter Responsive
+These days, we typically create ONE website and stylesheet that is able to respond to different device sizes and features.
+
+## Media Queries
+Media queries allow us to modufy our styles depending on particular parameters like screen width or device type.
+
+# The Power of Media Queries
+
+# Reset CSS
+
+```css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+```
