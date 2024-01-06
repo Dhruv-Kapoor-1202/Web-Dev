@@ -33,7 +33,7 @@ Returns a boolean value
 null == undefined;  //true
 ```
 
-## triple equals
+## === (triple equals)
 
 ```Javascript
 5 === 5;  // true
@@ -86,3 +86,65 @@ else if (condition 2) {
 ```
 
 # Else
+
+# Truth-y and False-y values
+
+- All JS values have an inherit truthyness or falseyness about them
+- Falsey values: 
+  - false
+  - 0 
+  - "" (Empty String) 
+  - null
+  - undefined
+  - NaN
+- Everythin else is truthy!
+
+# Logical Operators
+
+- Combining expressions
+- Three Core operators
+  - &&, || and !
+  
+## AND
+
+Both expressions must be true for the whole thing to be true
+
+## OR
+
+If either side is true, the entire thing is true
+
+## NOT 
+
+! expression returns true if expression is false
+
+# The Switch Statement is... A Lot
+
+The switch statement is another control-flow statement that can replace multiple if statements.   
+
+```javascript
+const day = 2;
+switch (day) {
+  case 1: 
+    console.log("MONDAY!");
+    break;
+  case 2: 
+    console.log("TUESDAY!");
+    break;
+  case 3: 
+    console.log("WEDNESDAY!");
+    break;
+  case 4: 
+    console.log("THURSDAY!");
+    break;
+  case 5: 
+    console.log("FRIDAY!");
+    break;
+  case 6:
+  case 7: 
+    console.log("WEEKEND!");
+    break;
+  default: 
+    console.log("Invalid Number!");
+}
+```
+
